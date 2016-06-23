@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+Created on : 22 juin 2016, 16:29:38
+Author     : admin
+*/
+
+body {
+    background-color: hotpink;
+    text-align: center;
+}
+
+.titre {
+    margin-bottom: 30px;
+    padding-top: 30px;
+    height: 200px;
+    background-image: url(http://4.bp.blogspot.com/-6zmA13cBs3Q/UBAmujBnxWI/AAAAAAAAAL4/DTF7Mg2mHK8/s1600/banniere2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titre h1 {
+    color: white;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 5em;
+    padding-top: 90px;
+}
+
+.menu {
+    background-color: darkviolet;
+    height: 60px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    width: 250px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 2em;
+    color: azure;
+    font-family: sans-serif;
+}
+
+.menu_click:hover {
+    color: chartreuse;
+}
+
+.contenu {
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+}
+
+.contenu h1 {
+    font-family: sans-serif;
+}
+
+.contenu form {
+    z-index: 0;
+    margin-top: 0;
+    border: 1px solid mediumvioletred;
+    padding-bottom: 10px;
+}
+
+.contenu form h4 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contenu form p {
+    margin-top: 30px;
+}
+
+.pied {
+   position: absolute;
+   bottom: 0;
+   width: 99%;
+   text-align: center;
+}
+
+.create_movie {
+    width: 100%;
+}
