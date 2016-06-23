@@ -20,7 +20,7 @@ import streaming.entity.Film;
  *
  * @author admin
  */
-@WebServlet(name = "ListerFilmsServlet", urlPatterns = {"/films_liste"})
+@WebServlet(name = "ListerFilmsServlet", urlPatterns = {"/films_liste"}) 
 public class ListerFilmsServlet extends HttpServlet {
 
     @Override
